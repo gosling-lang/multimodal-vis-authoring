@@ -1,0 +1,143 @@
+[
+  {
+    "id": 1,
+    "name": "DataBreeze",
+    "title": "Interweaving multimodal interaction with flexible unit visualizations for data exploration",
+    "authors": [
+      "Arjun Srinivasan",
+      "Bongshin Lee",
+      "John Stasko"
+    ],
+    "venue": "IEEE Transactions on Visualization and Computer Graphics",
+    "year": 2020,
+    "index": "27(8) 3519-3533",
+    "url": "https://ieeexplore.ieee.org/document/9023002",
+    "abstract": "Multimodal interfaces that combine direct manipulation and natural language have shown great promise for data visualization. Such multimodal interfaces allow people to stay in the flow of their visual exploration by leveraging the strengths of one modality to complement the weaknesses of others. In this article, we introduce an approach that interweaves multimodal interaction combining direct manipulation and natural language with flexible unit visualizations. We employ the proposed approach in a proof-of-concept system, DataBreeze. Coupling pen, touch, and speech-based multimodal interaction with flexible unit visualizations, DataBreeze allows people to create and interact with both systematically bound (e.g., scatterplots, unit column charts) and manually customized views, enabling a novel visual data exploration experience. We describe our design process along with DataBreeze's interface and interactions, delineating specific aspects of the design that empower the synergistic use of multiple modalities. We also present a preliminary user study with DataBreeze, highlighting the data exploration patterns that participants employed. Finally, reflecting on our design process and preliminary user study, we discuss future research directions."
+  },
+  {
+    "id": 2,
+    "name": "VisTalk",
+    "title": "Towards natural language-based visualization authoring",
+    "authors": [
+    ],
+    "venue": "IEEE Transactions on Visualization and Computer Graphics",
+    "year": 2022,
+    "index": "29(1) 1222-1232",
+    "url": "https://ieeexplore.ieee.org/document/9912366",
+    "abstract": "A key challenge to visualization authoring is the process of getting familiar with the complex user interfaces of authoring tools. Natural Language Interface (NLI) presents promising benefits due to its learnability and usability. However, supporting NLIs for authoring tools requires expertise in natural language processing, while existing NLIs are mostly designed for visual analytic workflow. In this paper, we propose an authoring-oriented NLI pipeline by introducing a structured representation of users' visualization editing intents, called editing actions , based on a formative study and an extensive survey on visualization construction tools. The editing actions are executable, and thus decouple natural language interpretation and visualization applications as an intermediate layer. We implement a deep learning-based NL interpreter to translate NL utterances into editing actions. The interpreter is reusable and extensible across authoring tools. The authoring tools only need to map the editing actions into tool-specific operations. To illustrate the usages of the NL interpreter, we implement an Excel chart editor and a proof-of-concept authoring tool, VisTalk. We conduct a user study with VisTalk to understand the usage patterns of NL-based authoring systems. Finally, we discuss observations on how users author charts with natural language, as well as implications for future research."
+  },
+  {
+    "id": 3,
+    "name": "XNLI",
+    "title": "XNLI: Explaining and diagnosing NLI-based visual data analysis",
+    "authors": [
+
+    ],
+    "venue": "IEEE Transactions on Visualization and Computer Graphics",
+    "year": 2023,
+    "index": "1-14",
+    "url": "https://ieeexplore.ieee.org/document/10026499",
+    "abstract": "Natural language interfaces (NLIs) enable users to flexibly specify analytical intentions in data visualization. However, diagnosing the visualization results without understanding the underlying generation process is challenging. Our research explores how to provide explanations for NLIs to help users locate the problems and further revise the queries. We present XNLI, an explainable NLI system for visual data analysis. The system introduces a Provenance Generator to reveal the detailed process of visual transformations, a suite of interactive widgets to support error adjustments, and a Hint Generator to provide query revision hints based on the analysis of user queries and interactions. Two usage scenarios of XNLI and a user study verify the effectiveness and usability of the system. Results suggest that XNLI can significantly enhance task accuracy without interrupting the NLI-based analysis process."
+  },
+  {
+    "id": 4,
+    "name": "DataFormulator",
+    "title": "Data Formulator: AI-powered concept-driven visualization authoring",
+    "authors": [
+      "Chenglong Wang",
+      "John Thompson",
+      "Bongshin Lee"
+    ],
+    "venue": "IEEE Transactions on Visualization and Computer Graphics",
+    "year": 2024,
+    "index": "30(1) 1128-1138",
+    "url": "https://ieeexplore.ieee.org/document/10292609",
+    "abstract": "With most modern visualization tools, authors need to transform their data into tidy formats to create visualizations they want. Because this requires experience with programming or separate data processing tools, data transformation remains a barrier in visualization authoring. To address this challenge, we present a new visualization paradigm, concept binding , that separates high-level visualization intents and low-level data transformation steps, leveraging an AI agent. We realize this paradigm in Data Formulator, an interactive visualization authoring tool. With Data Formulator, authors first define data concepts they plan to visualize using natural languages or examples, and then bind them to visual channels. Data Formulator then dispatches its AI-agent to automatically transform the input data to surface these concepts and generate desired visualizations. When presenting the results (transformed table and output visualizations) from the AI agent, Data Formulator provides feedback to help authors inspect and understand them. A user study with 10 participants shows that participants could learn and use Data Formulator to create visualizations that involve challenging data transformations, and presents interesting future research directions."
+  },
+  {
+    "id": 5,
+    "name": "InChorus",
+    "title": "InChorus: Designing consistent multimodal interactions for data visualization on tablet devices",
+    "authors": [
+
+    ],
+    "venue": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+    "year": 2020,
+    "index": "1-13",
+    "url": "https://doi.org/10.1145/3313831.3376782",
+    "abstract": "While tablet devices are a promising platform for data visualization, supporting consistent interactions across different types of visualizations on tablets remains an open challenge. In this paper, we present multimodal interactions that function consistently across different visualizations, supporting common operations during visual data analysis. By considering standard interface elements (e.g., axes, marks) and grounding our design in a set of core concepts including operations, parameters, targets, and instruments, we systematically develop interactions applicable to different visualization types. To exemplify how the proposed interactions collectively facilitate data exploration, we employ them in a tablet-based system, InChorus that supports pen, touch, and speech input. Based on a study with 12 participants performing replication and factchecking tasks with InChorus, we discuss how participants adapted to using multimodal input and highlight considerations for future multimodal visualization systems."
+  },
+  {
+    "id": 6,
+    "name": "DataParticles",
+    "title": "Dataparticles: Block-based and language-oriented authoring of animated unit visualizations",
+    "authors": [
+
+    ],
+    "venue": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+    "year": 2023,
+    "index": "(808)1-15",
+    "url": "https://dl.acm.org/doi/10.1145/3544548.3581472",
+    "abstract": "Unit visualizations have been widely used in data storytelling within interactive articles and videos. However, authoring data stories that contain animated unit visualizations is challenging due to the tedious, time-consuming process of switching back and forth between writing a narrative and configuring the accompanying visualizations and animations. To streamline this process, we present DataParticles, a block-based story editor that leverages the latent connections between text, data, and visualizations to help creators flexibly prototype, explore, and iterate on a story narrative and its corresponding visualizations. To inform the design of DataParticles, we interviewed 6 domain experts and studied a dataset of 44 existing animated unit visualizations to identify the narrative patterns and congruence principles they employed. A user study with 9 experts showed that DataParticles can significantly simplify the process of authoring data stories with animated unit visualizations by encouraging exploration and supporting fast prototyping."
+  },
+  {
+    "id": 7,
+    "name": "Ivy",
+    "title": "Integrated visualization editing via parameterized declarative templates",
+    "authors": [
+      "Andrew M. McNutt",
+      "Ravi Chugh"
+    ],
+    "venue": "Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+    "year": 2021,
+    "index": "17 1-14",
+    "url": "https://doi.org/10.1145/3411764.3445356",
+    "abstract": "We propose parameterized declarative templates, a simple abstraction mechanism over JSON-based visualization grammars, as a foundation for multimodal visualization editors. We demonstrate how templates can facilitate organization and reuse by factoring the more than 160 charts that constitute Vega-Lite’s example gallery into approximately 40 templates. We exemplify the pliability of abstracting over charting grammars by implementing—as a template—the functionality of the shelf builder Polestar (a simulacra of Tableau) and a set of templates that emulate the Google Sheets chart chooser. We show how templates support multimodal visualization editing by implementing a prototype and evaluating it through an approachability study."
+  },
+  {
+    "id": 8,
+    "name": "DataSketch",
+    "title": "DataSketch: A multimodal interface for data visualization and transformation",
+    "authors": [
+      "Yueqi Hu",
+      "Yingyi Bu",
+      "Yingcai Wu"
+    ],
+    "venue": "IEEE Transactions on Visualization and Computer Graphics",
+    "year": 2022,
+    "index": "28(1) 1-13",
+    "url": "https://ieeexplore.ieee.org/document/10026499",
+    "abstract": "Data visualization and transformation are two fundamental tasks in data analysis. However, existing tools often require users to switch between different interfaces to perform these tasks, which can be time-consuming and error-prone. In this paper, we present DataSketch, a multimodal interface that integrates data visualization and transformation into a single system. DataSketch allows users to create visualizations and transform data using a combination of pen, touch, and speech input. We describe the design of DataSketch and present a preliminary user study that evaluates the system. The results of the study show that DataSketch can help users perform data visualization and transformation tasks more efficiently and effectively than existing tools."
+  },
+  {
+    "id": 9,
+    "name": "Srinivasan et al.",
+    "title": "Facilitating spreadsheet manipulation on mobile devices leveraging speech",
+    "authors": [
+      "Arjun Srinivasan",
+      "Bongshin Lee",
+      "John Stasko"
+    ],
+    "venue": "Proceedings of the 2018 ACM CHI Workshop on Data Visualization on Mobile Devices",
+    "year": 2018,
+    "index": "",
+    "url": "",
+    "abstract": "Due to the prevalent use of spreadsheet applications, their user interface on a desktop has evolved significantly over time. However, user interfaces for spreadsheet applications on mobile devices are still in a nascent stage and are typically “ported” versions of their desktop counterparts. In this article, we present a simple tabular data manipulation scenario on mobile devices, leveraging speech input. We describe ways to complement direct manipulation-based input via touch or pen with minimalistic speech-based input. We also briefly discuss an open area for future research, where we could explore the role of speech input for interacting with spreadsheets along the spectrum of command-like utterances to a conversational dialog."
+  },
+  {
+    "id": 10,
+    "name": "TouchPivot",
+    "title": "TouchPivot: blending WIMP & post-WIMP interfaces for data exploration on tablet devices",
+    "authors": [
+      "Jaemin Jo",
+      "Sehi L'Yi",
+      "Bongshin Lee",
+      "Jinwook Seo"
+    ],
+    "venue": "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
+    "year": 2017,
+    "index": "2660-2671",
+    "url": "https://doi.org/10.1145/3025453.3025752",
+    "abstract": "Recent advancements in tablet technology pose a great opportunity for information visualization to expand its horizons beyond desktops. In this paper, we present TouchPivot, a novel interface that assists visual data exploration on tablet devices. With novices in mind, TouchPivot supports data transformations, such as pivoting and filtering, with simple pen and touch interactions, and facilitates understanding of the transformations through tight coupling between a data table and visualization. We bring in WIMP interfaces to TouchPivot, leveraging their familiarity and accessibility to novices. We report on a user study conducted to compare TouchPivot with two commercial interfaces, Tableau and Microsoft Excel's PivotTable. Our results show that novices not only answered data-driven questions faster, but also created a larger number of meaningful charts during freeform exploration with TouchPivot than others. Finally, we discuss the main hurdles novices encountered during our study and possible remedies for them."
+  }
+]
