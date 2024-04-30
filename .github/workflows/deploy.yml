@@ -38,6 +38,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
+      - name: Configure Pages
+       uses: actions/configure-pages@v4
       - name: Deploy to GitHub pages
         id: deployment
         uses: actions/deploy-pages@v4
