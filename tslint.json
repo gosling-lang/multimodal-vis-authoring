@@ -4,6 +4,12 @@
     "tslint-react",
     "tslint-config-prettier"
   ],
+  "plubins": [
+    "react"
+  ],
+  "env": {
+    "browser": true
+  },
   "no-unused-variable": false,
   "noUnusedLocals": false,
   "defaultSeverity": "warning",

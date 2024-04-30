@@ -5,7 +5,7 @@ on:
     branches: [main]
 
 jobs:
-  deploy-s3:
+  build:
     if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
     steps:
@@ -19,12 +19,13 @@ jobs:
         run: |
           yarn
           yarn build
-      - uses: jakejarvis/s3-sync-action@v0.5.1
-        with:
-          args: --acl public-read --follow-symlinks
-        env:
-          AWS_S3_BUCKET: sehilyi.com
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_REGION: 'us-east-1'
-          SOURCE_DIR: 'build'
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub pages
+        id: deploy
+        uses: actions/deploy-pages@v2

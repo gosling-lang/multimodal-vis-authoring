@@ -1,13 +1,9 @@
 {
   "name": "survey-multi-authoring-tech",
   "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://gosling-lang.github.io/multimodal-vis-authoring/",
   "private": true,
-  "dependencies": {
-    "gh-pages": "^2.2.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.11.0"
-  },
   "scripts": {
     "start": "vite",
     "build": "vite build",
@@ -16,6 +12,12 @@
     "format": "npx eslint --fix --ext .js --ext .ts --ext .tsx src/",
     "predeploy": "yarn build",
     "deploy": "touch build/.nojekyll; gh-pages -d build -t --git git"
+  },
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.0",
