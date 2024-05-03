@@ -72,6 +72,55 @@
             "Tactile": false,
             "Haptic": false,
             "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Data Transformation comment": "[NLI (\ud83d\udde3\ufe0f) + DM (\ud83d\udd8a\ufe0f/\ud83d\udc47)] or [WIMP (\ud83d\uddb1\ufe0f) + DM (\ud83d\udd8a\ufe0f/\ud83d\udc47)]"
+        },
+        "visual mapping": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Visual Mapping comment": "[NLI (\ud83d\udde3\ufe0f) + DM (\ud83d\udd8a\ufe0f/\ud83d\udc47)] or [WIMP (\ud83d\uddb1\ufe0f) + DM (\ud83d\udd8a\ufe0f/\ud83d\udc47)]"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": "[NLI (\ud83d\udde3\ufe0f) + DM (\ud83d\udd8a\ufe0f/\ud83d\udc47)]\u00a0"
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Styling comment": "[NLI (\ud83d\udde3\ufe0f) + DM (\ud83d\udd8a\ufe0f/\ud83d\udc47)] or [WIMP (\ud83d\uddb1\ufe0f) + DM (\ud83d\udd8a\ufe0f/\ud83d\udc47)]"
+        },
+        "device": {
+            "PC": false,
+            "tablet": false,
+            "Other": true
         }
     },
     {
@@ -151,6 +200,55 @@
             "Sound": false,
             "Tactile": false,
             "Haptic": false,
+            "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Data Transformation comment": "NLI (\u2328\ufe0f) + WIMP (\ud83d\uddb1\ufe0f)"
+        },
+        "visual mapping": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Visual Mapping comment": "NLI (\ud83d\udde3\ufe0f) + WIMP (\ud83d\uddb1\ufe0f)"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": null
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Styling comment": "NLI (\u2328\ufe0f) + WIMP (\ud83d\uddb1\ufe0f)"
+        },
+        "device": {
+            "PC": true,
+            "tablet": false,
             "Other": false
         }
     },
@@ -234,6 +332,55 @@
             "Tactile": false,
             "Haptic": false,
             "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Data Transformation comment": "NLI (\u2328\ufe0f) + WIMP (\ud83d\uddb1\ufe0f+ \u2328\ufe0f)"
+        },
+        "visual mapping": {
+            "Template": true,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Visual Mapping comment": "NLI (\u2328\ufe0f) + Template\u00a0"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": null
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Styling comment": null
+        },
+        "device": {
+            "PC": true,
+            "tablet": false,
+            "Other": false
         }
     },
     {
@@ -308,6 +455,55 @@
             "Sound": false,
             "Tactile": false,
             "Haptic": false,
+            "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": true,
+            "DM & VbD": false,
+            "VbE": true,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Data Transformation comment": "NLI (\u2328\ufe0f) + Code + VbE"
+        },
+        "visual mapping": {
+            "Template": true,
+            "Shelf": true,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Visual Mapping comment": "Novel catetgory -- Between Template and Shelf"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": null
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Styling comment": null
+        },
+        "device": {
+            "PC": true,
+            "tablet": false,
             "Other": false
         }
     },
@@ -386,6 +582,55 @@
             "Tactile": false,
             "Haptic": false,
             "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Data Transformation comment": "[DM (\ud83d\udc47) + DM( \ud83d\udd8a\ufe0f)] or [ NLI (\ud83d\udde3\ufe0f) + DM(\ud83d\udc47)]"
+        },
+        "visual mapping": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Visual Mapping comment": "[ NLI (\ud83d\udde3\ufe0f) + DM(\ud83d\udd8a\ufe0f/\ud83d\udc47)] or [ NLI (\ud83d\udde3\ufe0f) + WIMP (\ud83d\udc47)] or [ WIMP (\ud83d\udc47) + DM (\ud83d\udc47/\ud83d\udd8a\ufe0f)] or [DM (\ud83d\udc47) + DM( \ud83d\udd8a\ufe0f)]"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": "NLI (\ud83d\udde3\ufe0f) + DM(\ud83d\udd8a\ufe0f)"
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Styling comment": null
+        },
+        "device": {
+            "PC": false,
+            "tablet": true,
+            "Other": false
         }
     },
     {
@@ -462,6 +707,55 @@
             "Tactile": false,
             "Haptic": false,
             "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Data Transformation comment": null
+        },
+        "visual mapping": {
+            "Template": true,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Visual Mapping comment": "NLI (\u2328\ufe0f) + Template + WIMP\u00a0"
+        },
+        "view transformation": {
+            "Template": true,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "View Transformation comment": "NLI ( \u2328\ufe0f) + Template + WIMP (\ud83d\uddb1\ufe0f)"
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": true,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Styling comment": "VbE (upload) + WIMP"
+        },
+        "device": {
+            "PC": true,
+            "tablet": false,
+            "Other": false
         }
     },
     {
@@ -535,6 +829,55 @@
             "Sound": false,
             "Tactile": false,
             "Haptic": false,
+            "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": true,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Data Transformation comment": "Code + WIMP (\ud83d\uddb1\ufe0f+ \u2328\ufe0f)"
+        },
+        "visual mapping": {
+            "Template": true,
+            "Shelf": true,
+            "NLI": false,
+            "Code": true,
+            "DM & VbD": false,
+            "VbE": true,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Visual Mapping comment": "Template + Shelf + Code + VbE"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": null
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": true,
+            "NLI": false,
+            "Code": true,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Styling comment": "Shelf + Code"
+        },
+        "device": {
+            "PC": true,
+            "tablet": false,
             "Other": false
         }
     },
@@ -610,6 +953,55 @@
             "Sound": false,
             "Tactile": false,
             "Haptic": false,
+            "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Data Transformation comment": "DM (\ud83d\udc47) + NLI (\ud83d\udde3\ufe0f)"
+        },
+        "visual mapping": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Visual Mapping comment": "DM (\ud83d\udc47) + NLI (\ud83d\udde3\ufe0f)"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": null
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Styling comment": null
+        },
+        "device": {
+            "PC": false,
+            "tablet": true,
             "Other": false
         }
     },
@@ -687,6 +1079,55 @@
             "Tactile": false,
             "Haptic": false,
             "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Data Transformation comment": "DM (\ud83d\udd8a\ufe0f/\ud83d\udc47)"
+        },
+        "visual mapping": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Visual Mapping comment": "DM(\ud83d\udd8a\ufe0f/\ud83d\udc47) + WIMP"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": "DM(\ud83d\udd8a\ufe0f/\ud83d\udc47)"
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Styling comment": null
+        },
+        "device": {
+            "PC": false,
+            "tablet": true,
+            "Other": false
         }
     },
     {
@@ -762,6 +1203,55 @@
             "Sound": false,
             "Tactile": false,
             "Haptic": false,
+            "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": true,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Data Transformation comment": "DM/VbD (\ud83d\uddb1\ufe0f) + Shelf + WIMP (\ud83d\uddb1\ufe0f+ \u2328\ufe0f)"
+        },
+        "visual mapping": {
+            "Template": false,
+            "Shelf": true,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Visual Mapping comment": "DM/VbD (\ud83d\uddb1\ufe0f) + Shelf"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": "DM(\ud83d\uddb1\ufe0f)"
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Styling comment": null
+        },
+        "device": {
+            "PC": true,
+            "tablet": false,
             "Other": false
         }
     },
@@ -840,6 +1330,55 @@
             "Tactile": false,
             "Haptic": false,
             "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Data Transformation comment": "WIMP (\ud83d\uddb1\ufe0f+ \u2328\ufe0f)"
+        },
+        "visual mapping": {
+            "Template": true,
+            "Shelf": true,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Visual Mapping comment": "Novel catetgory -- Between Template and Shelf"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": null
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Styling comment": "WIMP"
+        },
+        "device": {
+            "PC": true,
+            "tablet": false,
+            "Other": false
         }
     },
     {
@@ -917,6 +1456,55 @@
             "Tactile": false,
             "Haptic": false,
             "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Data Transformation comment": null
+        },
+        "visual mapping": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": true,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Visual Mapping comment": "VbE + NLI(\u2328\ufe0f) + WIMP\u00a0"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": null
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Styling comment": "NLI(\u2328\ufe0f)\u00a0"
+        },
+        "device": {
+            "PC": true,
+            "tablet": false,
+            "Other": false
         }
     },
     {
@@ -993,6 +1581,55 @@
             "Tactile": false,
             "Haptic": false,
             "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Data Transformation comment": "WIMP (\ud83d\uddb1\ufe0f+ \u2328\ufe0f)"
+        },
+        "visual mapping": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": true,
+            "WIMP": false,
+            "Visual Mapping comment": "Visual Builder"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": true,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": "Shelf + DM(\ud83d\uddb1\ufe0f)\u00a0"
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": true,
+            "WIMP": false,
+            "Styling comment": "Visual Builder"
+        },
+        "device": {
+            "PC": true,
+            "tablet": false,
+            "Other": false
         }
     },
     {
@@ -1067,6 +1704,55 @@
             "Sound": false,
             "Tactile": false,
             "Haptic": false,
+            "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Data Transformation comment": "WIMP (\ud83d\uddb1\ufe0f+ \u2328\ufe0f)"
+        },
+        "visual mapping": {
+            "Template": false,
+            "Shelf": true,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": true,
+            "WIMP": false,
+            "Visual Mapping comment": "Shelf + Visual Builder"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": null
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": true,
+            "WIMP": false,
+            "Styling comment": "Visual Builder"
+        },
+        "device": {
+            "PC": true,
+            "tablet": false,
             "Other": false
         }
     },
@@ -1148,6 +1834,55 @@
             "Tactile": false,
             "Haptic": false,
             "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": true,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Data Transformation comment": "Shelf + WIMP (\ud83d\uddb1\ufe0f+ \u2328\ufe0f)"
+        },
+        "visual mapping": {
+            "Template": false,
+            "Shelf": true,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": true,
+            "WIMP": false,
+            "Visual Mapping comment": "Visual Builder"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": null
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": true,
+            "WIMP": false,
+            "Styling comment": "Visual Builder"
+        },
+        "device": {
+            "PC": true,
+            "tablet": false,
+            "Other": false
         }
     },
     {
@@ -1228,6 +1963,55 @@
             "Tactile": false,
             "Haptic": false,
             "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": true,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Data Transformation comment": "Code"
+        },
+        "visual mapping": {
+            "Template": true,
+            "Shelf": false,
+            "NLI": false,
+            "Code": true,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Visual Mapping comment": "Template + Code"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": true,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "View Transformation comment": "Code + WIMP"
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": true,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Styling comment": "Code"
+        },
+        "device": {
+            "PC": true,
+            "tablet": false,
+            "Other": false
         }
     },
     {
@@ -1301,6 +2085,55 @@
             "Sound": false,
             "Tactile": false,
             "Haptic": false,
+            "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Data Transformation comment": "NLI(\ud83d\udde3\ufe0f) + WIMP(\ud83d\uddb1\ufe0f+ \u2328\ufe0f)"
+        },
+        "visual mapping": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Visual Mapping comment": "NLI (\ud83d\udde3\ufe0f) + DM(\ud83d\uddb1\ufe0f) + WIMP"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": null
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Styling comment": null
+        },
+        "device": {
+            "PC": true,
+            "tablet": false,
             "Other": false
         }
     },
@@ -1376,6 +2209,55 @@
             "Tactile": false,
             "Haptic": false,
             "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Data Transformation comment": "NLI (\ud83d\udde3\ufe0f)\u00a0"
+        },
+        "visual mapping": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Visual Mapping comment": "[NLI (\ud83d\udde3\ufe0f) + DM (\ud83d\udc47)]"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": null
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": true,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Styling comment": "[NLI (\ud83d\udde3\ufe0f) + DM (\ud83d\udc47)]"
+        },
+        "device": {
+            "PC": false,
+            "tablet": true,
+            "Other": false
         }
     },
     {
@@ -1448,6 +2330,55 @@
             "Sound": true,
             "Tactile": false,
             "Haptic": false,
+            "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Data Transformation comment": "WIMP (\ud83d\uddb1\ufe0f+ \u2328\ufe0f)"
+        },
+        "visual mapping": {
+            "Template": false,
+            "Shelf": true,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Visual Mapping comment": "Shelf"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": true,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "View Transformation comment": "Shelf + WIMP"
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Styling comment": null
+        },
+        "device": {
+            "PC": true,
+            "tablet": false,
             "Other": false
         }
     },
@@ -1525,6 +2456,55 @@
             "Sound": false,
             "Tactile": false,
             "Haptic": false,
+            "Other": false
+        },
+        "data transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Data Transformation comment": "[NLI (\u2328\ufe0f) + WIMP (\ud83d\uddb1\ufe0f)] or [NLI (\ud83d\udde3\ufe0f) + WIMP (\ud83d\uddb1\ufe0f)"
+        },
+        "visual mapping": {
+            "Template": true,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": true,
+            "Visual Mapping comment": "[NLI (\u2328\ufe0f) + Template + WIMP (\ud83d\uddb1\ufe0f)] or [NLI (\ud83d\udde3\ufe0f) + Template + WIMP (\ud83d\uddb1\ufe0f)"
+        },
+        "view transformation": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": false,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "View Transformation comment": null
+        },
+        "styling": {
+            "Template": false,
+            "Shelf": false,
+            "NLI": true,
+            "Code": false,
+            "DM & VbD": false,
+            "VbE": false,
+            "Visual Builder": false,
+            "WIMP": false,
+            "Styling comment": "[NLI (\u2328\ufe0f) + WIMP (\ud83d\uddb1\ufe0f)] or [NLI (\ud83d\udde3\ufe0f) + WIMP (\ud83d\uddb1\ufe0f)"
+        },
+        "device": {
+            "PC": true,
+            "tablet": false,
             "Other": false
         }
     }
