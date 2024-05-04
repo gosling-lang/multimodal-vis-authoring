@@ -189,7 +189,7 @@ function App() {
 									})
 								}
 							</div>
-						<div className="w-full border-t mt-3"/>
+							<div className="w-full border-t mt-3"/>
 							<h3 className="p-1 pl-3 font text-lg w-[300px]">{datum.title}</h3>
 							<h3 className="p-1 pl-3 font text-md w-[300px]">{datum.authors.join(', ')}</h3>
 							<h3 className="p-1 pl-3 font text-sm w-[300px]">{datum.venue}</h3>
