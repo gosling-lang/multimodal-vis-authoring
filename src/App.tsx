@@ -46,7 +46,7 @@ function App() {
 
 		const datum = Data.find(d => d.id === selected);
 		return (
-			<div className="h-full w-screen bg-black/[0.4] z-50 fixed left-0 top-0"
+			<div className="h-full w-screen bg-black/[0.4] z-50 fixed left-0 top-0 overflow-y-auto"
 				onClick={() => setSelected(null)}
 			>
 				<div className="">
@@ -55,6 +55,7 @@ function App() {
 						<h3 className="mb-3 text-lg font-medium">{datum?.title}</h3>
 						<h3 className="mb-3 text-md font">{datum?.venue}, {datum?.publication_year}</h3>
 						<h3 className="mb-3 text-md font">{datum?.authors.join(', ')}</h3>
+            <a className="mb-3 pb-3" href={'http://dx.doi.org/' + datum?.doi} target="_blank" rel="noreferrer" className="text-blue-500 underline">Link to the publisher</a>
 						<div className="w-full border-t"/>
 						<h3 className="mt-3 mb-3 text-lg font-medium">Input Modality</h3>
 						<div className="mb-6">
